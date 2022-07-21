@@ -1,24 +1,30 @@
 {
-  "name": "simple-authorization",
-  "version": "1.0.0",
-  "description": "Simple Authorization With JWT Access Token",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/ichepyxa/simple-authorization.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ichepyxa/simple-authorization/issues"
-  },
-  "homepage": "https://github.com/ichepyxa/simple-authorization#readme",
-  "dependencies": {
-    "express": "^4.18.1",
-    "mongoose": "^6.4.6",
-    "nodemon": "^2.0.19"
-  }
+	"name": "simple-authorization",
+	"version": "1.0.0",
+	"description": "Simple Authorization With JWT Access Token",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/ichepyxa/simple-authorization.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/ichepyxa/simple-authorization/issues"
+	},
+	"homepage": "https://github.com/ichepyxa/simple-authorization#readme",
+	"dependencies": {
+		"bcrypt": "^5.0.1",
+		"express": "^4.18.1",
+		"express-validator": "^6.14.2",
+		"jsonwebtoken": "^8.5.1",
+		"mongoose": "^6.4.6"
+	},
+	"devDependencies": {
+		"cross-env": "^7.0.3",
+		"nodemon": "^2.0.19"
+	}
 }
