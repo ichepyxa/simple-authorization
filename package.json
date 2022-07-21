@@ -1,0 +1,24 @@
+{
+  "name": "simple-authorization",
+  "version": "1.0.0",
+  "description": "Simple Authorization With JWT Access Token",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ichepyxa/simple-authorization.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ichepyxa/simple-authorization/issues"
+  },
+  "homepage": "https://github.com/ichepyxa/simple-authorization#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.4.6",
+    "nodemon": "^2.0.19"
+  }
+}
